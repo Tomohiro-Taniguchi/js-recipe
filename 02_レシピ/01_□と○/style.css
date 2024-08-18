@@ -5,9 +5,19 @@
 }
 
 .rounded {
+  width: 100px;
+  height: 100px;
+  background-color: black;
   border-radius: 50px;
 }
 
 .transition {
   transition: all 1s;
+}
+
+.triangle {
+  background: black;
+  height: calc(tan(60deg) * 100px / 2);
+  width: 100px;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
