@@ -28,4 +28,5 @@ button.onclick = function () {
     id = null
     button.textContent = "start"
   }
+  console.log(id)
 }
