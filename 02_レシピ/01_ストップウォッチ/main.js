@@ -17,6 +17,7 @@ const countUp = function () {
 
 let id = null
 
+// ボタンがクリックされたときの処理
 button.onclick = function () {
   if (id === null) {
     // start
